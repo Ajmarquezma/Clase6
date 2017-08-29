@@ -15,7 +15,7 @@ public class Empresa {
     private ArrayList<Empleado> empleados;
     private ArrayList<Departamento> departamentos;
 
-    public Empresa(String nombre, int nit, ArrayList<Empleado> empleados, ArrayList<Departamento> departamento) {
+    public Empresa(String nombre, int nit) {
         this.nombre = nombre;
         this.nit = nit;
         this.empleados = new ArrayList<>();
